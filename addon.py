@@ -7,9 +7,8 @@ import struct
 addon       = xbmcaddon.Addon()
 addonname   = addon.getAddonInfo('name')
  
-line1 = "Hello "
+line1 = "Hello"
 line2 = "Your VPN Address is"
-line3 = "Using Python"
  
 
 def get_ip_address(ifname):
